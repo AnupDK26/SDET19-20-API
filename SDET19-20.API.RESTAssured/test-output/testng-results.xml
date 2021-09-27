@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-27T16:51:36 IST" name="Default suite" finished-at="2021-09-27T16:51:53 IST" duration-ms="16985">
+    <groups>
+    </groups>
+    <test started-at="2021-09-27T16:51:36 IST" name="Default test" finished-at="2021-09-27T16:51:53 IST" duration-ms="16985">
+      <class name="sdet.ParametersAndAuthentication.RequestChaining">
+        <test-method signature="requestChaining()[pri:0, instance:sdet.ParametersAndAuthentication.RequestChaining@10163d6]" started-at="2021-09-27T16:51:36 IST" name="requestChaining" finished-at="2021-09-27T16:51:53 IST" duration-ms="16789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestChaining -->
+      </class> <!-- sdet.ParametersAndAuthentication.RequestChaining -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
