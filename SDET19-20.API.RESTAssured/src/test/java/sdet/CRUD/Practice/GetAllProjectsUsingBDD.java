@@ -1,8 +1,11 @@
 package sdet.CRUD.Practice;
 
+import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
+
+import java.util.concurrent.TimeUnit;
 
 public class GetAllProjectsUsingBDD {
 	
@@ -17,6 +20,7 @@ public class GetAllProjectsUsingBDD {
 		
 		.then()
 		.assertThat().statusCode(200)
+		.assertThat().time(Matchers.lessThan(10000L), TimeUnit.MILLISECONDS)
 		.log().all();
 }
 
